@@ -1,6 +1,5 @@
 provider "aws" {
   profile = "default"
-  shared_credentials_file = "/home/jenkins/.aws/config"
   region  = "us-east-2"
 }
 

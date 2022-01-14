@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "vm-web" {
-  ami           = "ami-830c94e3"
+  ami           = "ami-001089eb624938d9f"
   instance_type = "t2.micro"
 
   tags = {

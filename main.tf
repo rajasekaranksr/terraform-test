@@ -1,5 +1,7 @@
 provider "aws" {
   region  = "us-east-2"
+  profile ="ansible"
+  shared_credentials_file = "/home/jenkins/.aws/credentials"
 }
 
 resource "aws_instance" "vm-web" {
